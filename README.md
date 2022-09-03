@@ -1,0 +1,11 @@
+# Wordle-Clone
+- To run the program, open the HTML file in a live server and in the terminal use the command "npm run start:backend"
+- Once it's running you should be able to play Wordle as you would the original game, you can refresh to restart with a new word
+    - Directions for playing:
+        - Guess a 5 letter word and hit enter (must be a real word)
+        - The tiles will flip and turn into a color, each color means something different:
+            - grey = letter is not in the correct word
+            - yellow = letter is in the correct word but you didn't put it in the right place
+            - green = letter is in the correct word and is in the same place
+        - Keep guessing using the colors as hints until you get the right word or you're out of guesses
+- If you want to see the correct word inspect the page and the console should state what it is
